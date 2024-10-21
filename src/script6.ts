@@ -82,29 +82,6 @@ let r6:cat={
 
 
 
-// interface accountOpen {
-//     name:string;
-//     age:number;
-//     address:string;
-//     adharNo:string
-//     panCard:string
-// }
-// interface loan extends accountOpen {
-//     type:string
-// }
-
-// let chinmay:loan = {
-//     name:"chinmay",
-//     age:23,
-//     address:"gardenia",
-//     adharNo:"123",
-//     panCard:"AWKPD4769P",
-//     type:"home"
-
-// }
-
-
-
 
 
 
