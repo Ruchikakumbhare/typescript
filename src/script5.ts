@@ -63,8 +63,7 @@ let s1:man = {
      name:'ravan',
      age:45
 }
-//s1.name = 'saqee'     //Cannot assign to 'name' because it is a read-only property
-s1.age = 32  
+//s1.name = 'saqee'     //Cannot assign to 'name' because it is a readn
 
 // program 4 -->
 
