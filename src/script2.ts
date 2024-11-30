@@ -33,14 +33,21 @@
 
 //----------------------program5
 // union
-let pass:string|number = 234 
-// pass = 'ruch'
-console.log(pass)
+// let pass:string|number = 234 
+// // pass = 'ruch'
+// console.log(pass)
 
-let c:string|number  = 1
-console.log(c)
+// let c:string|number  = 1
+// console.log(c)
 
 // // program 6
 // //union
 // let password:string|number = 123
 // password = "ABCD"
+
+// program7
+
+let age:number = 20
+let name2 : string = 'Ruchika'
+console.log(age)
+console.log(`${age} and ${name2}` )
