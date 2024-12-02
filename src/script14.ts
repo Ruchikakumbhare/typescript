@@ -77,3 +77,5 @@ let ax4 = new pro('Clothes')
 console.log(ax4.valueAbc)
 //--------------------------------------------------------
 
+
+
