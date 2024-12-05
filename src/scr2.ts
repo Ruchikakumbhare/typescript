@@ -51,17 +51,31 @@ let k = r11(12,23,45)
 console.log(k)  //output--1
 
 //program5
+//default parameter
 function greet1(name :string = 'guess'){
      console.log('hello' , {name})
 }
 greet1('Welcome')
 greet1();
 
+function greet2(name : string = 'welcome'){
+    console.log('how can i help you' , {name})
+}
+greet2('hiiee')
+greet2()
 
-//default parameter
 
-// function greetUser(name:String = 'guest'){
-//     console.log('hey',{name})
-// }
-// greetUser('morning')
-// greetUser();
+// program6
+//optional parameter
+function details(name:string , age?:number):void{
+    if(age){
+        console.log(` name is ${name} and her age is ${age}`)
+    }
+    else{
+        console.log(`${name} has no age provide `)
+    }
+}
+details('ruchika')
+details('ruchi' ,20 )
+
+
