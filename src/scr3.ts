@@ -75,6 +75,17 @@ let c2:num = {
 console.log(c2.mul(2,2))
 console.log(c2.div(2,2))
 
+interface ca {
+    ad1(a:number , b:number):number,
+    sb1(a:number , b:number):number,
+}
+let q1:ca={
+    ad1:(a,b) =>(a+b),
+    sb1:(a,b) =>(a-b)
+}
+console.log(q1.ad1(2,2))
+console.log(q1.sb1(2,2))
+
 // program6
 // function type
 interface greeting {
