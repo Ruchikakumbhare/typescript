@@ -1,61 +1,62 @@
 // program1 
 // class with constructor
-// class stu{
-//     name:string ;
-//     age:number;
-//     constructor (nm:string ,ag:number){
-//         this.name = nm
-//         this.age = ag
-//     }
-//     display_n():void{
-//         console.log(`${this.name} and  her age is : ${this.age}`)
-//     }
+class stu{
+    name:string ;
+    age:number;
+    constructor (nm:string ,ag:number){
+        this.name = nm
+        this.age = ag
+    }
+    display_n():void{
+        console.log(`${this.name} and  her age is : ${this.age}`)
+    }
 
-// }
-// let q2 =new stu('Arshi' , 30)
-// console.log(q2.name)
-// console.log(q2.age)
-// q2.display_n()
+}
+let q2 =new stu('Arshi' , 30)
+console.log(q2.name)
+console.log(q2.age)
+q2.display_n()
 
-// // program2
-// class car {
-//     public model:string;
-//     private sound :string;
-//     constructor(model : string , sound:string){
-//        this.model = model
-//        this.sound = sound
-//     }
-//     public makesoundd():void{
-//         console.log(`${this.sound}`)
-//     }
-//     private getsoundee():string{
-//         return `${this.sound}`
-//     }
-//     public call():void{
-//         this.getsoundee()
-//     }
-// }
-// let swift  = new car('BMW' , 'HIglysound')
-// console.log(swift.model)
-// // console.log(swift.call)
+// program2
+class car {
+    public model:string;
+    private sound :string;
+    constructor(model : string , sound:string){
+       this.model = model
+       this.sound = sound
+    }
+    public makesoundd():void{
+        console.log(`${this.sound}`)
+    }
+    private getsoundee():string{
+        return `${this.sound}`
+    }
+    public call():void{
+        this.getsoundee()
+    }
+}
+let swift  = new car('BMW' , 'HIglysound')
+console.log(swift.model)
+// console.log(swift.call)
 
 
-// // program3
-// class color1 {
-//     readonly cname : string;
-//     cost : number;
-//     constructor(cname : string , cost:number){
-//         this.cname = cname ,
-//         this.cost = cost
-//     }
-// }
-// let v2 = new color1('pink' , 100)
-// console.log(v2.cname)
-// console.log(v2.cost)
+// program3
+class color1 {
+    readonly cname : string;
+    cost : number;
+    constructor(cname : string , cost:number){
+        this.cname = cname ,
+        this.cost = cost
+    }
+}
+let v22 = new color1('pink' , 100)
+console.log(v22.cname)
+console.log(v22.cost)
 // v2.cname = 'yello' not access beacause of readonly
 
 // program4
 // single inheritance
+// in single inher.. a child class inherits from one and only one paraent class
 class grandfather{
     gfname : string ;
     gflname : string ;
@@ -89,6 +90,7 @@ v1.display_F()
 
 // program5
 // multilevel Inheritance
+// a class is derived from another class , which is also derived from another class ,this creates a chain of inheritance
 class grandfather1{
   gname : string ;
   glname : string;
@@ -127,6 +129,7 @@ v2.display2()
 
 // program6
 // hierarchical inheritance
+// Multiple classes inherit from a single parent class.
 class grandmother {
     gmname : string ; 
     glname : string ;
