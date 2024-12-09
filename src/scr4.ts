@@ -166,3 +166,4 @@ let dn2 = new daughter2('Neetu' , 'Kapoor' , 'Kareena')
 dn1.display11()
 dn1.display12()
 dn2.display13()
+
